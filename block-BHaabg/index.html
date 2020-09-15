@@ -13,3 +13,80 @@
 6. After the gallery section footer will come.
 
 7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <title>Assignment - II | Positioning Content</title>
+</head>
+
+<body id ="top">
+    <header>
+        <div class="container clearfix">
+         <div class ="logo-parent">
+            <img class="logo" src ="assets/media/logo.svg" alt="logo">
+         </div>
+         <div class = "nav-parent">
+             <nav>
+                <a href ="#">Humanities</a>
+                <a href ="#">Science</a>
+                <a href ="#">Engineering</a>
+                <a href ="#">Literature</a> 
+             </nav>
+         </div>
+        </div>
+    </header>
+    <div class="padding-div"></div>
+    <main>
+         <article class="container clearfix main-color">
+                <div class="article-text">
+                    <h1>The Book shop</h1>
+                    <p class ="text">Your results will include scholarly journal articles, newspaper articles, book chapters, conference proceedings, and more. 
+                        To focus your search on a specific subject area, try looking for databases.</p>
+
+                </div>
+                <div class="article-image">
+                    <img class = "img-library" src ="assets/media/library.jpg" alt="Library">
+                </div>
+            </article>
+            <section class="gallery">
+                <div class = "container clearfix gallery-color book-row">
+                    <div class="book">
+                        <img src ="assets/media/book1.jpg" alt="Book1">
+                    </div>
+                    <div class="book">
+                        <img src ="assets/media/book2.jpg" alt="Book2">
+                    </div>
+                    <div class="book">
+                        <img src ="assets/media/book3.jpg" alt="Book3">
+                    </div>
+                </div>
+                <div class = "container clearfix gallery-color book-row">
+                    <div class="book">
+                        <img src ="assets/media/book4.jpg" alt="Book4">
+                    </div>
+                    <div class="book">
+                        <img src ="assets/media/book5.jpg" alt="Book5">
+                    </div>
+                    <div class="book">
+                        <img src ="assets/media/book6.jpg" alt="Book6">
+                    </div>
+                </div>
+
+            </section>
+        
+    </main>
+    <footer>
+        <div class="container">
+            <div class ="copy-right">&copy2020 The Book Shop. All rights reserved.</div>            
+        </div>
+        <a href="#top"><div class = "button">Top</div></a>
+    </footer>
+</body>
+
+</html>
