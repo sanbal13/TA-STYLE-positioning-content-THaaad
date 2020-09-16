@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Clearfix */
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+
+/* Header */
+
+header {
+ background-color: rgba(65, 65, 206, 90%);
+}
+
+.float-head {
+    float: left;
+    color: white; 
+    height: 150px;
+    line-height : 150px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navigation {
+    float : right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: cornsilk;
+    margin-left : 10px;
+    height: 150px;
+    line-height : 150px;
+    font-size : 12px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.heading h1{
+    color: white; 
+    font-size: 52px;
+    padding-bottom: 20px;
+}
+
+.heading p{
+    color: cornsilk;
+    font-size: 15px;
+}
+.capital {
+    text-transform: uppercase;
+}
+
+/* Article Section */
+
+.article-section {
+    padding:100px;
+}
+
+.short-article {
+    width: 30%;
+    line-height: 1.5;
+    float: left;
+}
+.short-article2 {
+ margin: 0 5%;
+}
+.short-article h2 {
+    font-size: 20px;
+    color : blue;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.short-article p {
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 30px;
+    width: 100%;
+} 
+.button {
+    color:whitesmoke;
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* Profile Section */
+
+.profile-section { 
+    padding : 100px 0;
+    background-color: rgba(65, 65, 206, 90%);
+    color: white;
+}
+.profile {
+    border : 1px solid white;
+    text-align: center;
+    padding: 40px 0;
+    width: 21.25%;
+    float: left;
+}
+
+.profile-heading {
+ text-align: center;
+}
+
+.profile-heading h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.profile-heading p {
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: cornsilk;
+}
+.profile-image{
+    border-radius: 50%;
+    margin-bottom : 30px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+.profile p {
+    font-size: 15px;
+    color: cornsilk;
+}
+
+.profile2 {
+    margin: 0 5%;
+}
+.profile3 {
+    margin-right: 5%; 
+}
+
+/* Gallery Section */
+.gallery {
+    padding : 100px 0;
+}
+.gallery-heading {
+    text-align: center;
+}
+
+.gallery-heading h3 {
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.gallery-heading p {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 50px;
+    
+}
+.gallery-image{
+    width: 100%;
+    margin-bottom : 20px;
+}
+
+.photo {
+    float:left; 
+    width: 45%;
+}
+
+.photo1 {
+    margin-right: 10%;
+}
+
+.photo h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: blue; 
+
+}
+.photo p {
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+hr {
+    color: lightgrey;
+}
+
+/* Footer */
+footer{
+    line-height: 76px;
+}
+.copyright {
+    line-height: 76px;
+    float: left;
+}
+
+.navigation {
+    line-height: 76px;
+    float: right;
+    
+}
+.navigation a {
+    margin-left: 15px;
+}
+small {
+    font-size: 12px;
+    color: grey;
+}
+
